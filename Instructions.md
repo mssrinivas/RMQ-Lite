@@ -4,7 +4,9 @@
 
 ### Modules
     * A basic webserver (included in the starter code) 
-    * Implement a producer that creates "n" number of task messages of struct ( task_name, task_type, task_updat_time, scheduled_time, periodicity )
+    * Implement a producer that creates "n" number of task messages using multiple threads (goroutines) of struct and performs a http request to 
+      Broker on the defined endpoints.
+      ( task_name, task_type, task_update_time, scheduled_time, periodicity )
       n - is a command line argument from the user or a fixed constant defined in the code.  
        
 ## Broker
