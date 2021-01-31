@@ -26,6 +26,6 @@ func HttpKeepAlive(port string) {
 }
 
 func main() {
-  port := GetValueFromEnvVariable("ENV_PORT", ":9090")
+  port := GetValueFromEnvVariable("ENV_PORT", ":9091")
   HttpKeepAlive(port)
 }
