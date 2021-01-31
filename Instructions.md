@@ -4,7 +4,6 @@
 
 ### Modules
     * A basic webserver (included in the starter code) 
-    * Program should accept the count of tasks 
     * Implement a producer that creates "n" number of task messages of struct ( task_name, task_type, task_updat_time, scheduled_time, periodicity )
       n - is a command line argument from the user or a fixed constant defined in the code.  
        
